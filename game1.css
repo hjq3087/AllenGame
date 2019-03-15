@@ -1,0 +1,39 @@
+.cell-img {
+    width: 68px;
+}
+
+.hide {
+    display: none !important;
+}
+.cell {
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background: no-repeat url("imgs/精灵球.png") center/68px;
+    transition: background 0.5s;
+}
+
+.cell-clicked {
+    background: no-repeat url("imgs/精灵球.png") center/1px !important;
+    transition: background 0.5s;
+}
+
+.cell-correct {
+    background: lightgreen !important;
+}
+
+.row {
+}
+
+.board {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
